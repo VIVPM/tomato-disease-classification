@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 # MODEL = tf.keras.models.load_model("../saved_models/1.keras")
-endpoint = "http://localhost:8503/v1/models/tomatoes_model:predict"
+endpoint = "https://tomato-disease-classification-5v27.onrender.com/v1/models/tomatoes_model:predict"
 CLASS_NAMES = ['Tomato_Bacterial_spot',
  'Tomato_Early_blight',
  'Tomato_Late_blight',
