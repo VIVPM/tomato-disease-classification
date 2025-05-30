@@ -12,7 +12,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","https://potato-disease-classification-frontend.onrender.com","https://tomato-disease-classification-backend.onrender.com"],  # your React origin
+    allow_origins=["http://localhost:3000","https://tomato-disease-classification-frontend.onrender.com","https://tomato-disease-classification-backend.onrender.com"],  # your React origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
